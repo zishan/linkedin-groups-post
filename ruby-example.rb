@@ -37,9 +37,9 @@ gids = [
 # create group post hash 
 # see https://developer.linkedin.com/documents/groups-api#create
 post = {
-  title: 'Hack of the Month - Zishan, 11/25/13',
-  summary: 'Testing out the mass group post example.',
-  content: {
+  'title' => 'Hack of the Month - Zishan, 11/25/13',
+  'summary' => 'Testing out the mass group post example.',
+  'content' => {
     'submitted-url' => 'http://builtinct.org/profiles/blogs/stamford-tech-meetup-hack-of-the-month-11-25',
     'submitted-image-url' => 'http://m.c.lnkd.licdn.com/media-proxy/ext?w=100&h=80&hash=BdK91NC9XTWs%2FevjEaXnz0rGy6Q%3D&url=http%3A%2F%2Fphotos3.meetupstatic.com%2Fphotos%2Fevent%2Fb%2F0%2Fb%2Fa%2Fhighres_288585242.jpeg%3Fwidth%3D650',
     'title' => 'Stamford Tech Meetup - Hack of the Month - 11/25/13',
