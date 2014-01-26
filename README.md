@@ -21,7 +21,8 @@ See [this](http://developer.linkedin.com/forum/find-group-id) or [this](http://d
 ## STEP 3: Discussion POST Data
 The POST body is pretty straightforward. Generally, you'll want to create something similar with a "content" element to share a URL. See the [Developer API Docs](http://developer.linkedin.com/documents/groups-api#create) for example output.
 
-```post = {
+```
+post = {
   'title' => 'New Group Discussion',
   'summary' => 'What does everyone think about platform development?',
   'content' => {
